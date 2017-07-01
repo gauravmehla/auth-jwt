@@ -15,7 +15,7 @@ module.exports.register = function(req, res) {
   //   });
   //   return;
   // }
-
+  console.log(req.body);
   var user = new User();
 
   user.name = req.body.name;

@@ -3,7 +3,6 @@ var concat = require('gulp-concat');
 var uglify  = require('gulp-uglify');
 var watch = require('gulp-watch');
 var sourcemaps = require('gulp-sourcemaps');
-var ngHtml2Js = require("gulp-ng-html2js");
 
 gulp.task('scripts', function() {
   gulp.src(['./app/**/*.js', '!./app/**/*.test.js', '!./app/app.min.js'])

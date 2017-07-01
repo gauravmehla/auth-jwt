@@ -12,9 +12,17 @@
   3. Open another terminal and run `gulp`. Gulp will start and watch for changes.
   4. Run `npm start` to start express server.
   
-  *Note* : _`npm start` will use [nodemon](https://nodemon.io/). If it isn't installed on your system then run this command first :_
+### Note :
+   * _`npm start` will use [nodemon](https://nodemon.io/). If it isn't installed on your system then run this command first :_
   
-  `npm install -g nodemon`
+    `npm install -g nodemon`
+   
+   * _Make sure you have `mongodb` server running in background. If it isn't please make sure to run this command first :_
+   
+    `sudo mongod`
+    
+    
+If you do not know how to setup `mongodb` locally, follow [this](https://treehouse.github.io/installation-guides/mac/mongo-mac.html).
     
 ## Technology Used 
   * [AngularJS](https://angularjs.org/)

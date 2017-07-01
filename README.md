@@ -34,3 +34,4 @@ If you do not know how to setup `mongodb` locally, follow [this](https://treehou
   * [JWT-Sitepoint.com](https://www.sitepoint.com/user-authentication-mean-stack/)
   * [Getting to Know JWT - Scotch.io](https://scotch.io/tutorials/the-anatomy-of-a-json-web-token)
   * [5 Easy Steps to Understand JWT](https://medium.com/vandium-software/5-easy-steps-to-understanding-json-web-tokens-jwt-1164c0adfcec)
+  * [Authenticating-NodeJS-App-JWT-Scotch.io](https://scotch.io/tutorials/authenticate-a-node-js-api-with-json-web-tokens#toc-what-well-be-building)

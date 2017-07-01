@@ -17,7 +17,7 @@
   
     `npm install -g nodemon`
    
-   * _Make sure you have `mongodb` server running in background. If it isn't please make sure to run this command first :_
+   * _Make sure you have `mongodb` server running in background. If it is not please make sure to run this command first :_
    
     `sudo mongod`
     
@@ -35,3 +35,4 @@ If you do not know how to setup `mongodb` locally, follow [this](https://treehou
   * [Getting to Know JWT - Scotch.io](https://scotch.io/tutorials/the-anatomy-of-a-json-web-token)
   * [5 Easy Steps to Understand JWT](https://medium.com/vandium-software/5-easy-steps-to-understanding-json-web-tokens-jwt-1164c0adfcec)
   * [Authenticating-NodeJS-App-JWT-Scotch.io](https://scotch.io/tutorials/authenticate-a-node-js-api-with-json-web-tokens#toc-what-well-be-building)
+  * [In/Out's-of-token-based-authentications](https://scotch.io/bar-talk/the-ins-and-outs-of-token-based-authentication)

@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "nodemon ./bin/www",
+    "dev" : "gulp",
+    "prod" : "bower install && npm install && gulp prod"
   },
   "dependencies": {
     "body-parser": "~1.17.1",

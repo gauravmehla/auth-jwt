@@ -53,4 +53,7 @@ gulp.task('watch', function() {
 });
 
 // Default task
-gulp.task('default', ['scripts', 'styles', 'index', 'templates', 'lib', 'watch']);
+gulp.task('default', ['prod', 'watch']);
+
+// Production tasks
+gulp.task('prod',['scripts', 'styles', 'index', 'templates', 'lib'])

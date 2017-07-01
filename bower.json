@@ -1,0 +1,18 @@
+{
+  "name": "auth-jwt",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Gaurav Mehla <gaurav.ror007@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/gauravmehla/auth-jwt",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/lib",
+    "test",
+    "tests"
+  ]
+}

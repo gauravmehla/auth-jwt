@@ -6,7 +6,7 @@ var sourcemaps = require('gulp-sourcemaps');
 
 // Concat all JS files 
 gulp.task('scripts', function() {
-  gulp.src(['./app/**/*.js', '!./app/**/*.test.js', '!./app/app.min.js'])
+  gulp.src(['./app/**/*.js', '!./app/lib/**/*.js', '!./app/app.min.js'])
     .pipe(sourcemaps.init())
       .pipe(concat('./app.min.js'))
       .pipe(uglify({mangle: true}))
@@ -34,6 +34,12 @@ gulp.task('templates', function() {
   .pipe(gulp.dest('public/templates/'));
 });
 
+// Copy all library files to /public/lib/
+gulp.task('lib', function() {
+  gulp.src('./app/lib/**/*')
+  .pipe(gulp.dest('public/lib/'));
+});
+
 
 // Watch for change in css and js files
 gulp.task('watch', function() {
@@ -47,4 +53,4 @@ gulp.task('watch', function() {
 });
 
 // Default task
-gulp.task('default', ['scripts', 'styles', 'index', 'templates', 'watch']);
+gulp.task('default', ['scripts', 'styles', 'index', 'templates', 'lib', 'watch']);

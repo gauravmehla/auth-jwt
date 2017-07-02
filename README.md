@@ -1,5 +1,8 @@
 ![Imgur](http://i.imgur.com/awykJ0h.jpg)
 
+# Introduction
+  In this project, JWT is used for authenticating every request and making our API much more safe and secure.
+  
 ## Usage
   1. Clone this repo :
     
@@ -24,11 +27,12 @@
     
 If you do not know how to setup `mongodb` locally, follow [this](https://treehouse.github.io/installation-guides/mac/mongo-mac.html).
     
-## Technology Used 
+## Tools & Technology Used 
   * [AngularJS](https://angularjs.org/)
   * [Gulp](http://gulpjs.com/)
   * [ExpressJS](https://expressjs.com/)
   * [MongoDB](https://www.mongodb.com)
+  * [PassportJS](passportjs.org)
   
 ## Useful links 
   * [JWT-Sitepoint.com](https://www.sitepoint.com/user-authentication-mean-stack/)
@@ -36,3 +40,4 @@ If you do not know how to setup `mongodb` locally, follow [this](https://treehou
   * [5 Easy Steps to Understand JWT](https://medium.com/vandium-software/5-easy-steps-to-understanding-json-web-tokens-jwt-1164c0adfcec)
   * [Authenticating-NodeJS-App-JWT-Scotch.io](https://scotch.io/tutorials/authenticate-a-node-js-api-with-json-web-tokens#toc-what-well-be-building)
   * [In/Out's-of-token-based-authentications](https://scotch.io/bar-talk/the-ins-and-outs-of-token-based-authentication)
+  * [Token-based-auth-with-angularJS-and-Nodejs](https://code.tutsplus.com/tutorials/token-based-authentication-with-angularjs-nodejs--cms-22543)
